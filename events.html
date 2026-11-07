@@ -35,19 +35,19 @@
 <main id="main">
   <section class="plain">
     <div class="wrap">
-      <h3>Upcoming</h3>
-      <ul class="events">
-        <li>
-          <span class="when">January 2027</span>
+      <h3 id="upcoming-h">Upcoming</h3>
+      <ul class="events" id="upcoming">
+        <li data-until="2027-01-30">
+          <span class="when">30 January 2027</span>
           <span>
             <span class="what">Post-conference project workshop on constitution-making</span>
-            <span class="where">following the Baltic Public Choice Workshop, Gdańsk</span>
+            <span class="where">following the Baltic Public Choice Workshop (29 January), Gdańsk</span>
           </span>
         </li>
       </ul>
 
       <h3>Past</h3>
-      <ul class="events">
+      <ul class="events" id="past">
         <li>
           <span class="when">September 2026</span>
           <span>
@@ -73,5 +73,6 @@
     <span>Funded by DFG and NCN · <a href="imprint.html">Imprint &amp; Privacy</a></span>
   </div>
 </footer>
+<script src="events.js" defer></script>
 </body>
 </html>
